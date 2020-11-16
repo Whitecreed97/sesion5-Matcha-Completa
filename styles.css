@@ -1,0 +1,234 @@
+@media (min-width: 1200px) { 
+   *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+
+    header{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    nav{
+        width: 70%;
+        text-align: center;
+    }
+
+    #logo{
+        width: 100%;
+    }
+
+    nav>ul>li{
+        display: inline-block;
+        text-align: center;
+        margin: 14px;
+        font-family: sans-serif;
+        font-size: 25px;
+        color: green;
+    }
+
+    nav>ul>li>a{
+        text-decoration: none;
+        color: green;
+
+    }
+
+    .acciones{
+        width: 15%;
+        padding: 10px;
+    }
+
+    .acciones>a{
+        color: green;
+        font-size: 25px;
+    }
+
+    .acciones>button:hover{
+        background-color: lightblue;
+    }
+
+    button{
+        font-family: sans-serif;
+        color: white;
+        background-color: #67b54b;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 5px;
+
+    }
+
+    h1{
+        width: 100%;
+        padding-left: 80px;
+        padding-top: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 60px;
+        color: green;
+        text-align: left;
+    }
+
+    p{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+        color: green;
+        text-align: justify;
+    }
+
+
+    .explanatory-video>video{
+        display: flex;
+        padding-top: 60px;
+        padding-left: 100px;
+        width: 50%;
+    }
+        
+}
+
+@media (max-width: 575px) {
+    #logo{
+        width: 40%;
+    }
+
+
+    .acciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .acciones>a{
+        color: green;
+        font-size: 15px;
+    }
+
+    button{
+        font-family: sans-serif;
+        color: white;
+        background-color: #67b54b;
+    }
+
+    h1{
+        width: 100%;
+        padding: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: green;
+        text-align: left;
+    }
+
+    p{
+        width: 90%;
+        padding-left: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color: green;
+        text-align: justify;
+    }
+
+    .explanatory-video>video{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 15px;
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    #logo{
+        width: 100%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 200%;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    nav>ul>li{
+        display: inline-block;
+        text-align: center;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size: 10px;
+        color: green;
+    }
+
+    .acciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .acciones>a{
+        color: green;
+        font-size: 13px;
+    }
+
+    button{
+        font-family: sans-serif;
+        font-size: 10px;
+        color: white;
+        background-color: #67b54b;
+    }
+
+    h1{
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: green;
+        text-align: left;
+    }
+
+    p{
+        width: 90%;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color: green;
+        text-align: justify;
+    }
+
+    .explanatory-video>video{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 30px;
+        width: 50%;
+    }
+}
